@@ -1,0 +1,39 @@
+NICXART STUDIO — PORTAFOLIO PERSONAL
+
+Proyecto desarrollado únicamente con HTML + CSS.
+
+CÓMO ABRIR
+1. Descomprime la carpeta completa.
+2. Abre la carpeta NICXART_Portafolio_HTML_CSS en Visual Studio Code.
+3. Abre index.html con Live Server (o con tu navegador).
+
+ARCHIVOS
+- index.html: portada y proyectos destacados.
+- proyectos.html: galería completa con filtros hechos solo con CSS.
+- sobre-mi.html: presentación personal y proceso creativo.
+- contacto.html: espacio para tu correo y redes.
+- proyecto-plantilla.html: ejemplo para detallar un trabajo.
+- css/estilos.css: todos los estilos y animaciones CSS.
+- imagenes/nicxart-logo-original.png: logo extraído del Illustrator proporcionado.
+- imagenes/nicxart-simbolo.png: isotipo original de la estrella.
+
+PERSONALIZA TUS TRABAJOS
+Los seis proyectos son TARJETAS DE MUESTRA: NO representan trabajos reales.
+En proyectos.html encuentra <article class="project-card">.
+1. Cambia el título de cada <h3> y la descripción de <p>.
+2. Para cambiar la imagen de una tarjeta, reemplaza el contenido de <a class="project-art ..."> por una imagen: <img src="imagenes/mi-proyecto.jpg" alt="Descripción">.
+3. Añade la clase project-image en esa etiqueta <img>, y este CSS al final de css/estilos.css:
+   .project-art .project-image { width:100%; height:100%; object-fit:cover; }
+4. Copia proyecto-plantilla.html y renómbralo para cada nuevo caso de estudio.
+5. Actualiza el enlace href de cada tarjeta al archivo nuevo.
+6. Repite el cambio de las cuatro tarjetas de inicio.html (en este proyecto están en index.html) para destacar tus mejores trabajos.
+7. Cambia el texto TU CORREO AQUÍ en contacto.html por tus datos reales.
+
+IMPORTANTE
+Los filtros funcionan con botones radio y CSS, sin JavaScript.
+Los links a proyectos llevan a una plantilla de demostración hasta que crees cada página propia.
+Las tipografías originales mostradas en el archivo webs.ai son Comfortaa y Coolvetica.
+La web usa Comfortaa de Google Fonts; si falta conexión, activa una fuente local alternativa.
+Coolvetica es comercial; no se incluye ningún archivo de fuente.
+La imagen del logo es extraída del archivo Illustrator proporcionado.
+La segunda página del .ai muestra OTRA FORMA; no se utilizó para esta web.

@@ -1,0 +1,5 @@
+NICXART STUDIO — MAPA DE PÁGINAS
+index.html → proyectos.html → proyecto-plantilla.html
+index.html → sobre-mi.html
+index.html → contacto.html
+Navegación presente en todas las páginas.
